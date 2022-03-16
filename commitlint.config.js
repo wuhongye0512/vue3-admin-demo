@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-03-16 16:13:48
- * @LastEditTime: 2022-03-16 16:17:10
+ * @LastEditTime: 2022-03-16 17:26:40
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \vue3-admin-demo\commitlint.config.js
@@ -26,7 +26,9 @@ module.exports = {
             'test', // 增加测试
             'chore', // 构建过程或辅助工具的变动
             'revert', // 回退
-            'build' // 打包
+            'build', // 打包
+            'init', // 初始化
+            'ci' // ci配置
         ]
     ],
     // subject大小写不做校验
