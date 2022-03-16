@@ -1,17 +1,25 @@
+<!--
+ * @Author: your name
+ * @Date: 2022-03-14 18:26:29
+ * @LastEditTime: 2022-03-16 16:52:34
+ * @LastEditors: Please set LastEditors
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: \vue3-admin-demo\src\App.vue
+-->
 <template>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
     name: 'App',
     components: {
         HelloWorld
     }
-};
+}
 </script>
 
 <style>

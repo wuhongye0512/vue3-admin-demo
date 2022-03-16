@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2022-03-15 13:56:27
- * @LastEditTime: 2022-03-15 14:08:50
+ * @LastEditTime: 2022-03-15 14:47:09
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \vue3-admin-demo\.cz-config.js
@@ -49,20 +49,6 @@ module.exports = {
             name: 'build:      打包'
         }
     ],
-
-    scopes: [{
-            name: 'accounts'
-        },
-        {
-            name: 'admin'
-        },
-        {
-            name: 'exampleScope'
-        },
-        {
-            name: 'changeMe'
-        }
-    ],
     // 步骤
     messages: {
         type: '请选择提交的类型：',
@@ -72,6 +58,8 @@ module.exports = {
         footer: '请输入要关闭的描述（可选）',
         confirmCommit: '确定要使用以上信息提交吗？（y/n）'
     },
+    // 跳过步骤
+    skipQuestions: ['body', 'footer'],
     // limit subject length
     subjectLimit: 100
 };
