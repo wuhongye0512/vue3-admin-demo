@@ -4,8 +4,9 @@ import {
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import installElementPlus from './plugins/element'
+import Antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
 
 const app = createApp(App)
-installElementPlus(app)
-app.use(router).use(store).mount('#app')
+
+app.use(router).use(store).use(Antd).mount('#app')

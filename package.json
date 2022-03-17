@@ -10,8 +10,8 @@
     "release": "standard-version"
   },
   "dependencies": {
+    "ant-design-vue": "^2.2.8",
     "core-js": "^3.6.5",
-    "element-plus": "^1.0.2-beta.28",
     "vue": "^3.2.8",
     "vue-router": "^4.0.11",
     "vuex": "^4.0.2"
@@ -34,8 +34,7 @@
     "eslint-plugin-vue": "^7.0.0",
     "husky": "^7.0.1",
     "lint-staged": "^12.3.5",
-    "standard-version": "^9.3.2",
-    "vue-cli-plugin-element-plus": "0.0.13"
+    "standard-version": "^9.3.2"
   },
   "config": {
     "commitizen": {
